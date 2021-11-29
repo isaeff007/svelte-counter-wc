@@ -1,5 +1,6 @@
 {
-  "name": "svelte-app",
+  "name": "my-svelte-component",
+  "main": "public/build/count-btn.js",
   "version": "1.0.0",
   "private": true,
   "scripts": {

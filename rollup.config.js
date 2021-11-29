@@ -29,11 +29,11 @@ function serve() {
 }
 
 export default {
-	input: 'src/main.js',
+	input: 'src/App.svelte',
 	output: {
 		sourcemap: true,
-		format: 'iife',
-		name: 'app',
+		format: 'umd',
+		name: 'MySvelteComponent',
 		file: 'public/build/count-btn.js'
 	},
 	plugins: [
